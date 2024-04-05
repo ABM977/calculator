@@ -152,7 +152,8 @@ class _BasiccalculatorState extends State<Basiccalculator> {
     operator.dispose();
     super.dispose();
   }
-
+// abm
+//  sdfghjkl
   String calc() {
     Parser p = Parser();
     Expression e = p.parse("${num1.text + operator.text + num2.text}");
